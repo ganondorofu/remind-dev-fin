@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "379390566634",
+    "project_id": "remind-dev-20a7c",
+    "storage_bucket": "remind-dev-20a7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379390566634:android:72df2f5dfe5070cf94f793",
+        "android_client_info": {
+          "package_name": "jp.flutter.remind_dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379390566634-pgbuvhklmfu23n1b0u5jkrnf82kf9lrp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jp.flutter.remind_dev",
+            "certificate_hash": "d2f89af40aa3d70d8ff8fcddd5d3f259ed8bde2a"
+          }
+        },
+        {
+          "client_id": "379390566634-kefdr4ll2ta47sg5jmfurauvcgtv4rh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2_OMMFyL4oxgU5SAnyIYwg82ry7HR5-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379390566634-kefdr4ll2ta47sg5jmfurauvcgtv4rh7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "379390566634-vgbgdcgpaovrerrq2m2r04nn64hrgaji.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.remindDev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

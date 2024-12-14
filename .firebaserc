@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "dev": "remind-dev-20a7c",
+    "default": "remind-dev-20a7c"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

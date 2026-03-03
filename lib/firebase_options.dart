@@ -40,8 +40,10 @@ class DefaultFirebaseOptions {
     }
   }
 
+  // NOTE: API keys should be provided via environment configuration.
+  // Re-run `flutterfire configure` to regenerate this file with your keys.
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: '***REMOVED_FIREBASE_WEB_API_KEY***',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY'),
     appId: '1:379390566634:web:b20b8e94b0e96eb794f793',
     messagingSenderId: '379390566634',
     projectId: 'remind-dev-20a7c',
@@ -51,7 +53,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: '***REMOVED_FIREBASE_IOS_API_KEY***',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY'),
     appId: '1:379390566634:ios:f4ba9fc1d723f39294f793',
     messagingSenderId: '379390566634',
     projectId: 'remind-dev-20a7c',
@@ -60,7 +62,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: '***REMOVED_FIREBASE_IOS_API_KEY***',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY'),
     appId: '1:379390566634:ios:f4ba9fc1d723f39294f793',
     messagingSenderId: '379390566634',
     projectId: 'remind-dev-20a7c',
@@ -69,7 +71,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: '***REMOVED_FIREBASE_WEB_API_KEY***',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY'),
     appId: '1:379390566634:web:684bc34944a521ef94f793',
     messagingSenderId: '379390566634',
     projectId: 'remind-dev-20a7c',
@@ -79,11 +81,10 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: '***REMOVED_FIREBASE_ANDROID_API_KEY***',
+    apiKey: String.fromEnvironment('FIREBASE_ANDROID_API_KEY'),
     appId: '1:379390566634:android:72df2f5dfe5070cf94f793',
     messagingSenderId: '379390566634',
     projectId: 'remind-dev-20a7c',
     storageBucket: 'remind-dev-20a7c.appspot.com',
   );
-
 }
